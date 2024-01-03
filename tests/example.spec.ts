@@ -14,7 +14,7 @@ test.describe("Routes", () => {
     await expect(page.getByRole("strong")).toHaveText("Outbox");
 
     await page.getByRole("link", { name: "Go to next" }).click();
-    // await expect(page.getByRole("strong")).toHaveText("next");
+    await expect(page.getByRole("strong")).toHaveText("next");
     await page.reload();
     await expect(page.getByRole("strong")).toHaveText("next");
   });
