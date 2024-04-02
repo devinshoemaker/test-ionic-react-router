@@ -41,7 +41,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
-    "jsdom": "^23.2.0",
+    "jsdom": "^24.0.0",
     "terser": "^5.30.2",
     "typescript": "^5.4.3",
     "vite": "^5.2.7",
